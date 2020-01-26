@@ -6,7 +6,7 @@
 
 html,
 body,
-.wrapper {
+.wrappers {
   height: 100%;
   margin: 0;
   padding: 0;
@@ -17,7 +17,7 @@ body {
   background-color: #f9fbfd;
 }
 
-.wrapper {
+.wrappers {
   padding-top: 30px;
   padding-left: 20px;
   padding-right: 20px;
@@ -30,7 +30,7 @@ header {
   color: hsl(206, 17%, 28%);
 }
 
-.card {
+.cards {
   background-color: hsl(0, 0%, 100%);
   border-radius: 5px;
   border-width: 1px;
@@ -42,7 +42,7 @@ header {
   padding: 30px 40px;
 }
 
-.card-header::after {
+.cards-header::after {
   content: " ";
   display: block;
   width: 100%;
@@ -50,15 +50,15 @@ header {
   height: 2px;
 }
 
-.card-body {
+.cards-body {
   min-height: 100px;
 }
 
-.card-footer {
+.cards-footer {
   text-align: center;
 }
 
-.card-footer::before {
+.cards-footer::before {
   content: " ";
   display: block;
   width: 100%;
@@ -66,13 +66,13 @@ header {
   height: 2px;
 }
 
-.card-footer::after {
+.cards-footer::after {
   content: " ";
   display: block;
   clear: both;
 }
 
-.btn {
+.btns {
   border: none;
   background-color: hsl(360, 91%, 36%);
   border-radius: 25px;
@@ -119,7 +119,7 @@ button[disabled] {
 }
 
 @media (max-width: 690px) {
-  .btn {
+  .btns {
     font-size: 1rem;
     margin: 16px 0px 0px 0px;
     padding: 10px 15px;
@@ -131,7 +131,7 @@ button[disabled] {
 }
 
 @media (max-width: 500px) {
-  .btn {
+  .btns {
     font-size: 0.8rem;
   }
 }
